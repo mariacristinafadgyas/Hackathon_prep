@@ -6,8 +6,3 @@ def add_at_symbol_to_username(username):
              the function should return 'user123@email.com'
     """
     return f"{username}@email.com"
-
-username = get_username()
-clean_username = remove_special_characters(username)
-email = add_at_symbol_to_username(clean_username)
-print("Your email is:", email)
