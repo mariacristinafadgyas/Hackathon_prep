@@ -7,10 +7,11 @@ def add_domain_to_username(username):
     username = username + "email.com"
     return username
 
-# def main():
-#     username = add_domain_to_username("doe@")
-#     assert username == "doe#@"
-#
-# if __name__ == "__main__":
-#     main()
+
+def main():
+    username = add_domain_to_username("doe@")
+    assert username == "doe@email.com"
+
+if __name__ == "__main__":
+    main()
 
